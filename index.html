@@ -56,16 +56,12 @@
       cursor: pointer;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
       transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
     }
 
-    .card img {
-      width: 100%;
-      display: block;
-      border-radius: 1rem;
-      transition: transform 0.5s ease;
-    }
-
-    .card:hover img {
+    .card:hover {
       transform: scale(1.02);
     }
 
@@ -96,6 +92,15 @@
       padding: 2rem;
       font-size: 0.9rem;
     }
+
+    /* Background image classes */
+    .bg-1 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max.png?raw=true'); }
+    .bg-2 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-2.png?raw=true'); }
+    .bg-3 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-3.png?raw=true'); }
+    .bg-4 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-4.png?raw=true'); }
+    .bg-5 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-5.png?raw=true'); }
+    .bg-6 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-6.png?raw=true'); }
+    .bg-7 { background-image: url('https://github.com/anandvip/va-storyline-page/blob/main/img/min-max-7.png?raw=true'); }
   </style>
 </head>
 <body>
@@ -105,37 +110,30 @@
     Connect with this artist to tell your story online with creativity that resonates with you and your life values.</p>
   </header>
   <main class="gallery">
-    <div class="card">
-      <img src="/mnt/data/A_2D_digital_image_heavily_features_geometric_shap.png" alt="Minimal Maximalism">
+    <div class="card bg-1">
       <div class="overlay">Minimal Maximalism: Bold, clean geometry hinting at structural clarity and visual rhythm.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_painting_in_the_style_of_geometric_abstraction_w.png" alt="Shabby Version">
+    <div class="card bg-2">
       <div class="overlay">Shabby Edition: Timeworn textures blend with abstract forms, evoking the nostalgia of decay.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_textured_abstract_painting_in_the_style_of_geome.png" alt="Gradient Fusion">
+    <div class="card bg-3">
       <div class="overlay">Random Gradients: A dreamy distortion breathing vibrance into static forms.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_textured_digital_painting_depicts_a_minimalist_l.png" alt="Palm Silhouette">
+    <div class="card bg-4">
       <div class="overlay">A Silhouette Appears: A lone palm emerges, suggesting presence and rootedness in abstraction.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_digital_painting_in_the_style_of_abstract_geomet.png" alt="Quantum Nebula">
+    <div class="card bg-5">
       <div class="overlay">Quantum Backdrop: Cosmos unfolds behind static geometry, charging the canvas with life force.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_vibrant_digital_painting_features_a_cosmic_scene.png" alt="White Lightning">
+    <div class="card bg-6">
       <div class="overlay">White Lightning: Electric consciousness—movement, tension, surge of thought.</div>
     </div>
-    <div class="card">
-      <img src="/mnt/data/A_digital_painting_in_a_fusion_of_surrealism_and_g.png" alt="Human Reflection">
+    <div class="card bg-7">
       <div class="overlay">State of Mind: A woman's face emerges—a symbol of silent turmoil, cosmic thought, inner dialogue.</div>
     </div>
   </main>
   <footer>
-    Created by Vipul Anand using ChatGPT-4o
+    Created by Vipul Anand
   </footer>
 </body>
 </html>
